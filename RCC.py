@@ -17,4 +17,4 @@ def encrypt(message, n):
     return "".join(final)
 
 def decrypt(message, n):
-    pass
+    return encrypt(message, -n)
