@@ -8,6 +8,9 @@ def tests():
     #Test 2 - single letter
     assert encrypt("A", 1) == "B", f"Test 2 - single letter failed"
 
+    # Test 3 - multiple letters
+    assert encrypt("AA", 1) == "BC", f"Test 3 - multiple letter failed"
+
     print("All tests passed")
 
 tests()
